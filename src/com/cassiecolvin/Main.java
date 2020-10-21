@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
-    
+
     static DecimalFormat decimalFormat = new DecimalFormat("$0.00");
 
     public static void main(String[] args) {
