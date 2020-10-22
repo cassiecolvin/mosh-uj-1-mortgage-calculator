@@ -25,5 +25,6 @@ public class Main {
         BigDecimal bdAnnualInterestRate = new BigDecimal(annualInterestRate);
 
         System.out.println("Your Monthly Payment Is "+calculator.calculateMortgage(bdPrincipal,bdAnnualInterestRate,periodInYears).setScale(1,RoundingMode.HALF_UP));
+        System.out.println("Your Monthly Payment Is "+calculator.calculateMortgage(principal,annualInterestRate,periodInYears));
     }
 }
